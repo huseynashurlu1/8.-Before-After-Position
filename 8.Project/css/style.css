@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+    padding: 0 3rem;
+}
+
+
+
+.header-top{
+    padding: 15px 3rem;
+    background-color: #F6F6F8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top div{
+    width: calc(100%/3);
+}
+
+.header-top .left i a{
+    text-transform: lowercase capitalize;
+}
+
+.header-top a{
+    font-size: 12px;
+    color: #878787;
+}
+
+.header-top .center{
+    text-align: center;
+}
+
+.header-top .right{
+    text-align: right;
+}
+
+.header-bottom{
+    display: flex;
+    padding: 20px 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom img{
+    width: 60%;
+}
+
+.header-bottom .navbar a{
+    font-size: 14px;
+    color: #222222;
+    margin: 0 20px;
+}
+
+.shop,.sale{
+    position: relative;
+}
+
+.shop span,.sale span{
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    background-color: #01BAD4;
+    color: #fff;
+    border-radius: 30px;
+    padding: 4px 7px;
+    font-size: 10px;
+}
+
+.sale span{
+    background-color: #FFA800;
+}
+
+.icons i{
+    font-size: 16px;
+    color: #878787;
+    margin-left: 20px;
+}
+
+.pos-price{
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    color: #fff;
+    z-index: 11111111111111111;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 100%;
+    padding: 15px 12px;
+}
+
+.pos-price img{
+    position: absolute;
+    background: #7cb442;
+    border-radius: 50%;
+    padding: 6px;
+    bottom: -12px;
+    right: -12px;
+}
+
+#Slider{
+    background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+#Slider h1{
+    font-size: 60px;
+    color: #fff;
+}
+#Slider p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+#Slider a{
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 30px;
+}
+
+#Products .all{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Products{
+    padding: 3rem 0;
+}
+
+
+#Products .box{
+    width: 24%;
+    position: relative;
+    overflow: hidden;
+}
+
+#Products .box img{
+    width: 100%;
+    transition: .4s;
+    vertical-align: bottom;
+}
+
+
+#Products .box span{
+    position: absolute;
+    bottom: 30px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 40px;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#Products .box:hover img{
+    transform: scale(1.1);
+}

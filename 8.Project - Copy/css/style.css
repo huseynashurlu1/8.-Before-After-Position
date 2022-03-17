@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+    padding: 0 3rem;
+}
+
+
+body{
+    background-image: url(https://akkord.az/site/assets/files/1029/tanap-cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    padding: 30px 0;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 15px;
+    font-family: HelveticaLight;
+}
+
+.box i{
+    color: #fff;
+}
+
+.box select{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+#Main{
+    padding: 7rem 0;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+
+ul li a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.main-all{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    width: 30%;
+}
+
+.right{
+    width: 50%;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(/fonts/HelveticaNowDisplay-ExtBlk.ttf);
+}
+
+@font-face {
+    font-family: HelveticaLight;
+    src: url(/fonts/HelveticaNowDisplay-ExtLt.ttf);
+}
+
+.right h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: Helvetica;
+}
+
+.main-all .right a{
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 14px 50px;
+}
